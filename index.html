@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chirp, a mini social app</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="#/" class="brand">Chirp</a>
+      <form id="search" class="search" autocomplete="off">
+        <input id="search-input" type="search" placeholder="Find people" aria-label="Find people" />
+        <ul id="search-results" class="results" hidden></ul>
+      </form>
+      <nav id="nav"></nav>
+    </header>
+    <main id="app" class="container" aria-live="polite"></main>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
